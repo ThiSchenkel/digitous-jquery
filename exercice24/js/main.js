@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("button").click(function () {
-        $("#exercise #bg").animate({
+        $("#bg").animate({
             right: "100px",
         })
     })
