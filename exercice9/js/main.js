@@ -1,6 +1,9 @@
+function afficherText() {
+    $("#text").css("display", "block")
+}
 $(document).ready(function () {
     $("button").click(function () {
-        $("#text").show();
-        $("#text").css("background", "yellow");
+        afficherText();
     })
-})
+});
+
